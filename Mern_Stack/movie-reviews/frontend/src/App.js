@@ -7,6 +7,7 @@ import MoviesList from "./components/movies-list";
 import Movie from "./components/movie";
 import Login from "./components/login";
 import {Nav, Navbar} from 'react-bootstrap';
+import React from "react";
 
 function App() {
   const [user, setUser] = React.useState(null);
